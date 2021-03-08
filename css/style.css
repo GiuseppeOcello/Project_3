@@ -164,8 +164,7 @@ input[type="radio"]:hover {
    transform: scale(2);
    transition: 200ms;
    border-color: #4EBBB5;
-   background: #4EBBB5;
-}
+   }
 
 input[type="checkbox"],
 input[type="checkbox"] + label,
@@ -264,10 +263,6 @@ select:hover {
    background-image: linear-gradient(to left, #EFF0F1, #fff 75%);
 }
 
-#zip {
-   background-image: linear-gradient(to left, #f1f1f1, #fff 75%);
-}
-
 fieldset:first-child label {
    flex-basis: 25%;
 }
@@ -281,4 +276,5 @@ input[type="tel"],
 
 #zip {
    flex-basis: 180px;
+}
 }
